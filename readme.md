@@ -64,14 +64,16 @@ WhatsappOTPauth/
 
 ### 1. Clone the Repository
 
-
+```
 git clone https://github.com/Sksohel2003/WhatsappOTPauth.git
 cd WhatsappOTPauth
+```
 2. Setup Backend
 
+```
 cd backend
 npm install
-
+```
 Create a .env file:
 
 env
@@ -80,19 +82,21 @@ TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 Then start the server:
-
+```
 npm start
-
+```
 3. Setup Frontend
+```
 cd ../frontend
 npm install
+```
 Update API base URL in your frontend code to:
 
 axios.post("http://localhost:5000/api/auth/send-otp", { phone });
 Then run:
+```
 npm start
-
-
+```
 Example .env for Backend
 
 PORT=5000
@@ -100,7 +104,9 @@ MONGO_URI=mongodb+srv://admin:yourpass@cluster.mongodb.net/otp_auth
 TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxx
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
-🚀 Future Deployment
+
+Future Deployment
+
 Vercel for frontend
 
 Render for backend
@@ -117,11 +123,12 @@ Add toast notifications for success/error
 Enable SMS or Telegram fallback
 
 Add login attempt limits
-
+```
 👤 Author
 Name: Sohel
 GitHub: @Sksohel2003
 Year: 2025
+```
 
 ⭐️ Support
 If you like this project, give it a ⭐ on GitHub!
