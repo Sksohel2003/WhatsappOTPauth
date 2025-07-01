@@ -44,10 +44,10 @@ WhatsappOTPauth/
 │ │ └── index.js
 ├── .env.example # Sample environment variables
 └── README.md
-3️⃣ Setup Frontend
+
 
 ```
-
+3. Setup Frontend
 ## How It Works
 
 1. User enters their phone number.
