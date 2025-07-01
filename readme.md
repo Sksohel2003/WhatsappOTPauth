@@ -29,20 +29,8 @@ This is a full-stack authentication system using **WhatsApp-based OTP verificati
 
 ## 📁 Project Structure
 
-WhatsappOTPauth/
-├── backend/
-│ ├── controllers/ # Logic for sending & verifying OTP
-│ ├── routes/ # Express routes
-│ ├── models/ # Mongoose user model
-│ ├── config/ # DB connection
-│ └── server.js # Entry point
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # Phone login & registration UI
-│ │ ├── App.js
-│ │ └── index.js
-├── .env.example # Sample environment variables
-└── README.md
+![image](https://github.com/user-attachments/assets/e3a6b631-a860-49ee-97ab-ec1a9f0d2875)
+
 
 ## 🧪 How It Works
 
@@ -60,7 +48,7 @@ WhatsappOTPauth/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Sksohel2003/WhatsappOTPauth.git
 cd WhatsappOTPauth
 2. Setup Backend
@@ -120,16 +108,3 @@ Year: 2025
 
 ⭐️ Support
 If you like this project, give it a ⭐ on GitHub!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like this in a **downloadable PDF**, or if you want to include:
-- Your own name/logo/screenshot
-- Screens for mobile version
-- Custom styling
-
-Ready to help you finish it strong! ✅
