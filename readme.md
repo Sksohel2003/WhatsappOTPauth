@@ -1,21 +1,21 @@
-# 🔐 WhatsApp OTP Authentication System
+# WhatsApp OTP Authentication System
 
 This is a full-stack authentication system using **WhatsApp-based OTP verification**. Users can register and log in using just their phone number. OTPs are sent via **Twilio WhatsApp API**, and user details are stored securely in **MongoDB Atlas**.
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ Send OTP via WhatsApp using Twilio
-- ✅ Verify OTP and authenticate user
-- ✅ Register new users after OTP verification
-- ✅ Login existing users using OTP
-- ✅ React-based frontend with clean UI
-- ✅ Express.js backend with MongoDB Atlas
+-  Send OTP via WhatsApp using Twilio
+-  Verify OTP and authenticate user
+-  Register new users after OTP verification
+-  Login existing users using OTP
+-  React-based frontend with clean UI
+-  Express.js backend with MongoDB Atlas
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer        | Technology         |
 |--------------|--------------------|
@@ -27,12 +27,28 @@ This is a full-stack authentication system using **WhatsApp-based OTP verificati
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
-![image](https://github.com/user-attachments/assets/e3a6b631-a860-49ee-97ab-ec1a9f0d2875)
+```bash
+WhatsappOTPauth/
+├── backend/
+│ ├── controllers/ # Logic for sending & verifying OTP
+│ ├── routes/ # Express routes
+│ ├── models/ # Mongoose user model
+│ ├── config/ # DB connection
+│ └── server.js # Entry point
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # Phone login & registration UI
+│ │ ├── App.js
+│ │ └── index.js
+├── .env.example # Sample environment variables
+└── README.md
+3️⃣ Setup Frontend
 
+```
 
-## 🧪 How It Works
+## How It Works
 
 1. User enters their phone number.
 2. Backend sends a 6-digit OTP to the number via Twilio WhatsApp.
@@ -44,7 +60,7 @@ This is a full-stack authentication system using **WhatsApp-based OTP verificati
 
 ---
 
-## 🔧 Setup Instructions (Local Only)
+##  Setup Instructions (Local Only)
 
 ### 1. Clone the Repository
 
@@ -55,6 +71,7 @@ cd WhatsappOTPauth
 
 cd backend
 npm install
+
 Create a .env file:
 
 env
@@ -76,7 +93,7 @@ Then run:
 npm start
 
 
-🔐 Example .env for Backend
+Example .env for Backend
 
 PORT=5000
 MONGO_URI=mongodb+srv://admin:yourpass@cluster.mongodb.net/otp_auth
@@ -90,7 +107,7 @@ Render for backend
 
 Custom domain support
 
-📦 To Do / Improvements
+To Do / Improvements
 Use JWT token authentication
 
 Add loading states and error handling
