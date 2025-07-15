@@ -78,6 +78,7 @@ Create a .env file:
 
 env
 PORT=5000
+```
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
@@ -95,16 +96,18 @@ Update API base URL in your frontend code to:
 axios.post("http://localhost:5000/api/auth/send-otp", { phone });
 Then run:
 ```
+```
 npm start
 ```
 Example .env for Backend
 
 PORT=5000
+```
 MONGO_URI=mongodb+srv://admin:yourpass@cluster.mongodb.net/otp_auth
 TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxx
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
-
+```
 Future Deployment
 
 Vercel for frontend
@@ -123,7 +126,7 @@ Add toast notifications for success/error
 Enable SMS or Telegram fallback
 
 Add login attempt limits
-```
+
 👤 Author
 Name: Sohel
 GitHub: @Sksohel2003
