@@ -29,7 +29,7 @@ This is a full-stack authentication system using **WhatsApp-based OTP verificati
 
 ##  Project Structure
 
-```bash
+```
 WhatsappOTPauth/
 ├── backend/
 │ ├── controllers/ # Logic for sending & verifying OTP
@@ -44,10 +44,9 @@ WhatsappOTPauth/
 │ │ └── index.js
 ├── .env.example # Sample environment variables
 └── README.md
-
-
 ```
-3. Setup Frontend
+
+### 3. Setup Frontend
 ## How It Works
 
 1. User enters their phone number.
@@ -68,7 +67,7 @@ WhatsappOTPauth/
 git clone https://github.com/Sksohel2003/WhatsappOTPauth.git
 cd WhatsappOTPauth
 ```
-2. Setup Backend
+### 2. Setup Backend
 
 ```
 cd backend
@@ -84,18 +83,20 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 Then start the server:
 ```
+```
 npm start
 ```
-3. Setup Frontend
+### 3. Setup Frontend
 ```
 cd ../frontend
+
 npm install
 ```
 Update API base URL in your frontend code to:
-
-axios.post("http://localhost:5000/api/auth/send-otp", { phone });
-Then run:
 ```
+axios.post("http://localhost:5000/api/auth/send-otp", { phone });
+```
+Then run:
 ```
 npm start
 ```
