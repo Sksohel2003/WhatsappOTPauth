@@ -42,7 +42,7 @@ WhatsappOTPauth/
 │ │ ├── components/ # Phone login & registration UI
 │ │ ├── App.js
 │ │ └── index.js
-├── .env.example # Sample environment variables
+├── .env.example #environment variables
 └── README.md
 ```
 
@@ -109,24 +109,23 @@ TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxx
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 ```
-Future Deployment
+# Future Deployment
 
-Vercel for frontend
+• Vercel for frontend
 
-Render for backend
+• Render for backend
 
-Custom domain support
+• Custom domain support
 
-To Do / Improvements
-Use JWT token authentication
+• To Do / Improvements Use JWT token authentication
 
-Add loading states and error handling
+• Add loading states and error handling
 
-Add toast notifications for success/error
+• Add toast notifications for success/error
 
-Enable SMS or Telegram fallback
+• Enable SMS or Telegram fallback
 
-Add login attempt limits
+• Add login attempt limits
 
 👤 Author
 Name: Sohel
